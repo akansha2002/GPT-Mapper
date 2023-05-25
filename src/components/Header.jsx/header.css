@@ -1,0 +1,105 @@
+.header{
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+
+}
+
+.header-container{
+    
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15%;
+    margin-left: 15%;
+    transition-duration: 500ms;
+    height: 70px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.logo{
+    font-size: 26px;
+    font-weight: 500;
+    color: #232323;
+    display: inline-block;
+    margin-right: 30px;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: 31%;
+
+}
+.nav ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav ul li{
+    display: inline-block;
+    clear: both;
+    position: inherit;
+    list-style: none;
+}
+
+.nav ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+    padding: 0 20px;
+    display: block;
+    height: 40px;
+    
+    line-height: 39px;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+/* .nav ul li.active a::before {
+    width: calc(100% - 40px);
+    height: 2px;
+    background-color: #fc6060;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    z-index: 1;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+
+
+
+
+
+
+
+
+
