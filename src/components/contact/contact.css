@@ -15,6 +15,7 @@
     flex-wrap: wrap;
 }
 
+
 .first{
     flex: 0 0 50%;
     max-width: 50%;
@@ -92,6 +93,26 @@
 
 
 
+@media only screen and (max-width: 767px){
+    .contact-area-container{
+        flex-direction: column;
+    }
+    .first h2{
+        font-size: 30px;
+    }
+    .first{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .second{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .third{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 
 
 

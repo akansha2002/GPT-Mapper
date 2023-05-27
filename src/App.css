@@ -268,9 +268,7 @@ input:required {
     font-size: 16px;
 
   }
-  .container{
-    
-  }
+ 
   .left-side{
     margin-left: 30px;
   }
@@ -321,6 +319,7 @@ input:required {
     visibility: visible;
     animation-delay: 500ms;
     animation-name: fadeInUp;
+    margin-bottom: 8%;
   }
   .right-side{
     position: relative;
@@ -381,6 +380,14 @@ input:required {
     margin-left: auto;
     
 
+  }
+  
+@media only screen and (max-width: 767px){
+  .choose-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   }
 
   .choose h1{

@@ -15,7 +15,7 @@ const Passion = () => {
                 
                 
                 <div className='left-side'>
-                    <h1>We Live For Passion</h1>
+                    <h3>We Live For Passion</h3>
                     <div className='line'>
                         
                     </div>
