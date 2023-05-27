@@ -1,13 +1,18 @@
 import React from 'react'
 import '../../App.css';
 import Poster from '../../img/bg-img/17.jpg'
+import './passion.css'
 
 const Passion = () => {
   return (
     <div>
       <section >
+      {/* <div>
+              <h3 className='about'>About Us</h3>
+              </div> */}
             <div  className='section-2'>
-
+              
+                
                 
                 <div className='left-side'>
                     <h1>We Live For Passion</h1>

@@ -18,9 +18,10 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    margin-top: 70px;
+    /* margin-top: -50px; */
     text-align: center!important;
     height: 100%;
+    flex-direction: column;
 }
 
 .section-1-inner ol{
