@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css';
-
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className='section-1-outer'>
@@ -12,8 +12,8 @@ const Home = () => {
       <div>
         <ol>
             
-            <li><a href='/'><i class="icon_house_alt"></i> Home &gt; </a></li>
-            <li> About</li>
+            <li><Link to='/'><i class="icon_house_alt"></i> Home‎ ‎ &gt; </Link></li>
+            <li> ‎ ‎ About</li>
         </ol>
     </div>
       </div>

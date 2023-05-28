@@ -16,23 +16,23 @@ const WhyChooseUs = () => {
                             <div class="chosse-us-icon">
                                 <i class="fa fa-film" aria-hidden="true"></i>
                             </div>
-                            <h4>High Quality Images</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                            <h4>AI-Powered Brilliance</h4>
+                            <p>Experience the ease of creating powerful roadmaps with our user-friendly interface enhanced by AI technology. Unlock your potential and chart a clear course towards success.</p>
                         </div>
                     </div>
                     <div className='single-container'>
                             <div class="chosse-us-icon">
                                 <i class="fa fa-film" aria-hidden="true"></i>
                             </div>
-                            <h4>High Quality Images</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                            <h4>Intuitive UI</h4>
+                            <p>Explore the endless possibilities of roadmap creation through our intuitive user interface powered by cutting-edge AI. Easily visualize your goals and navigate your journey with confidence.</p>
                     </div>
                     <div className='single-container'>
                             <div class="chosse-us-icon">
                                 <i class="fa fa-film" aria-hidden="true"></i>
                             </div>
-                            <h4>High Quality Images</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                            <h4>On-Demand Guidance</h4>
+                            <p>Receive instant AI-driven suggestions and recommendations to enhance your roadmap, ensuring it aligns with your goals and objectives.</p>
                     </div>
                 </div>
             </div>
