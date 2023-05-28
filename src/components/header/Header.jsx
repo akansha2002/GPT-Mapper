@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css'
 import './header.css';
-
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -25,12 +25,12 @@ const Header = () => {
   return (
     <header className={isSticky ? 'sticky' : 'sticky'}>
         <div className='header-container'>
-            <div className="logo">Logo</div>
+            <div className="logo">GPTMapper</div>
             <div className='nav'>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li className='active'><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li className='active'><Link to="/about">About</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         </div>

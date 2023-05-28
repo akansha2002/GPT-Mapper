@@ -3,11 +3,11 @@ import Home from '../home/Home'
 import './contact.css'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
-
+import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     {/* <Home/> */}
     <div className='section-1-outer'>
       <div className='section-1-inner'>
@@ -18,8 +18,8 @@ const Contact = () => {
       <div>
         <ol>
             
-            <li><a href='/'><i class="icon_house_alt"></i> Home &gt; </a></li>
-            <li> Contact</li>
+            <li><Link to='/'><i class="icon_house_alt"></i> Home ‎ ‎ &gt; </Link></li>
+            <li> ‎ ‎ Contact</li>
         </ol>
     </div>
       </div>

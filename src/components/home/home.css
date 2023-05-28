@@ -4,8 +4,8 @@
     background-repeat: no-repeat !important;
     position: relative;
     z-index: 1;
-    height: 470px;
-    background-image: url('../../img/bg-img/1.jpg');
+    height: 50vh;
+    background-color: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,6 +25,7 @@
 }
 
 .section-1-inner ol{
+    padding:1em;
     list-style-type: decimal;
     display: flex;
 }
