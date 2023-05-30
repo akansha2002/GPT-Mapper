@@ -1,0 +1,70 @@
+.single-item{
+    visibility: visible;
+    animation-delay: 100ms;
+    animation-name: fadeInUp;
+    margin-bottom: 30px;
+    /* flex: 0 0 25%;
+    max-width: 25%; */
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.single-item-inner{
+    position: relative;
+    z-index: 1;
+    transition-duration: 500ms;
+    overflow: hidden;
+    visibility: visible;
+
+}
+
+.single-item-inner img{
+    transition-duration: 500ms;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    visibility: visible;
+}
+
+.hover-content {
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.portfolio-img{
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -26px;
+    z-index: 100;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fc6060;
+    text-align: center;
+    line-height: 52px;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 500ms;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
