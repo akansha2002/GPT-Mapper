@@ -4,6 +4,12 @@ import Header from '../header/Header'
 import SingleGalleryItem from './SingleGalleryItem'
 import Footer from '../footer/Footer'
 import '../passion/passion.css'
+import IMG1 from '../../assets/roadm.jpg'
+import IMG2 from '../../assets/roadm2.jpg'
+import IMG3 from '../../assets/roadm3.jpg'
+import IMG4 from '../../assets/roadm4.jpg'
+import IMG5 from '../../assets/roadm5.jpg'
+import IMG6 from '../../assets/roadm6.jpg'
 
 const HomePage = () => {
   return (
@@ -27,17 +33,13 @@ const HomePage = () => {
             <h3>Roadmap Samples</h3>
           </div>
           <div className='roadmap_samples_block'>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
-            <SingleGalleryItem/>
+            <SingleGalleryItem IMG={IMG1}/>
+            <SingleGalleryItem IMG={IMG2}/>
+            <SingleGalleryItem IMG={IMG3}/>
+            <SingleGalleryItem IMG={IMG4}/>
+            <SingleGalleryItem IMG={IMG5}/>
+            <SingleGalleryItem IMG={IMG6}/>
+        
           </div>
           <div className='view_more'>
             <div className='view-more-inner'>
