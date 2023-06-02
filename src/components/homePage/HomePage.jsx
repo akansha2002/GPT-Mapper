@@ -23,7 +23,7 @@ const HomePage = () => {
                 <p>You reached the right place. We provide instant roadmaps essential to ace your career.</p>
                 <div btn-container >
                 <input className='btn-1' placeholder="Enter Topic"/>
-                <a href='#' className='btn-2' >Get</a>
+                <a href={IMG1} class="portfolio-img" className='btn-2'>Get</a>
               </div>
           </div>
         </div>
